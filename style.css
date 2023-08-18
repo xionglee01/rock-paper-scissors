@@ -1,0 +1,59 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: monospace;
+    background-color: gray;
+    color: rgb(211, 207, 207);
+}
+
+.score-container
+{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.scores
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.round
+{
+    font-size: 100px;
+    text-align: center;
+}
+
+.current_plays
+{
+    font-size: 80px;
+    text-align: center;
+}
+
+p{
+    font-size: 50px;
+}
+
+
+.buttons
+{
+
+    margin-bottom: 10px;
+}
+
+button
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+
+}
